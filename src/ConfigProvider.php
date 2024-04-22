@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Zeno\Depend;
+namespace Bud\Depend;
 
-use Zeno\Depend\Collector\DependCollector;
-use Zeno\Depend\Listener\DependListener;
+use Bud\Depend\Collector\DependCollector;
+use Bud\Depend\Listener\DependListener;
 
 class ConfigProvider
 {
