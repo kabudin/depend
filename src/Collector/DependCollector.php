@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Zeno\Depend\Collector;
+namespace Bud\Depend\Collector;
 
 use Hyperf\Di\MetadataCollector;
 

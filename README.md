@@ -5,7 +5,7 @@
 ## 安装
 
 ```shell
-composer require zeno/depend
+composer require bud/depend
 ```
 
 ## 使用方法
@@ -19,7 +19,7 @@ declare(strict_types=1);
 namespace App\Service;
 
 use App\TestInterface;
-use Zeno\Depend\Annotation\Depend;
+use Bud\Depend\Annotation\Depend;
 
 #[Depend(TestInterface::class，2)]
 class TestService3 implements TestInterface

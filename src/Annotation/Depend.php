@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Zeno\Depend\Annotation;
+namespace Bud\Depend\Annotation;
 
 use Attribute;
 use ReflectionClass;
-use Zeno\Depend\Collector\DependCollector;
+use Bud\Depend\Collector\DependCollector;
 use Hyperf\Di\Annotation\AbstractAnnotation;
 
 #[Attribute(Attribute::TARGET_CLASS)]

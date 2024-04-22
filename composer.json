@@ -1,5 +1,5 @@
 {
-  "name": "zeno/depend",
+  "name": "bud/depend",
   "description": "An annotation declaration that adapts to the hyperf framework to cover dependency relationships",
   "type": "library",
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Zeno\\Depend\\": "src/"
+      "Bud\\Depend\\": "src/"
     }
   },
   "require": {
@@ -28,7 +28,7 @@
       "dev-master": "3.1-dev"
     },
     "hyperf": {
-      "config": "Zeno\\Depend\\ConfigProvider"
+      "config": "Bud\\Depend\\ConfigProvider"
     }
   }
 }

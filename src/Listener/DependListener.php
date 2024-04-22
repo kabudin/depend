@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Zeno\Depend\Listener;
+namespace Bud\Depend\Listener;
 
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Contract\ContainerInterface;
@@ -9,7 +9,7 @@ use Hyperf\Contract\StdoutLoggerInterface;
 use Hyperf\Di\Definition\PriorityDefinition;
 use Hyperf\Event\Contract\ListenerInterface;
 use Hyperf\Framework\Event\BootApplication;
-use Zeno\Depend\Collector\DependCollector;
+use Bud\Depend\Collector\DependCollector;
 
 class DependListener implements ListenerInterface
 {
