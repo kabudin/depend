@@ -44,7 +44,7 @@ class DependListener implements ListenerInterface
         $data = DependCollector::list();
         foreach ($data as $class => $item) {
             list($interface, $priority) = $item;
-            if (!interface_exists($interface)) {
+            if (!interface_exists($interface) && !class_exists($interface)) {
                 $this->console->error(sprintf('Dependencies [%s] Injection to the [%s] failed.', $class, $interface));
                 continue;
             }
